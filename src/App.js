@@ -26,16 +26,17 @@ function App() {
            <h3>text box</h3>
            <button className='btn'>Join us</button>
            <p>The proposed idea involves machine learning (ML) 
-techniques for OCR to accurately convert handwritten 
-equations into digital format. Once the handwritten input is 
-converted into digital format, the system will perform various 
-mathematical operations such as finding roots, integration, 
-and differentiation.
-</p>
+            techniques for OCR to accurately convert handwritten 
+            equations into digital format. Once the handwritten input is 
+           converted into digital format, the system will perform various 
+           mathematical operations such as finding roots, integration, 
+           and differentiation.
+          </p>
 
            </div>
            <div className='home-second'>
-            <img src='km.webp'></img>
+           <img src="km.webp" alt="Description of the image" />
+
            </div>
               
         </section>
@@ -72,33 +73,49 @@ and differentiation.
           <h2>services</h2>
           </div>
            
-          
+          <div className='main-service'>
+
           <div className='services1'>
           <p>The proposed idea involves machine learning (ML) 
             techniques for OCR to accurately convert handwritten 
             equations into digital format. Once the handwritten input is 
-            converted into digital format, the system will perform various 
-            mathematical operations such as finding roots, integration, 
-            and differentiation. </p>
+            converted into digital format . </p>
           </div>
           <div className='services1'>
           <p>The proposed idea involves machine learning (ML) 
             techniques for OCR to accurately convert handwritten 
             equations into digital format. Once the handwritten input is 
-            converted into digital format, the system will perform various 
-            mathematical operations such as finding roots, integration, 
-            and differentiation.  </p>
+            converted into digital format. </p>
           </div>
           <div className='services1'>
           <p>The proposed idea involves machine learning (ML) 
             t matical content. The 
              user just needs to write the equation in the input box, after 
             that the input will converted into digital format making it 
-           ready for mathematical operations like finding solutions, 
-            differentiating it, integrating it.</p>
+           ready for mathematical..</p>
           </div>
-
-          
+          <div className='services1'>
+          <p>The proposed idea involves machine learning (ML) 
+            t matical content. The 
+             user just needs to write the equation in the input box, after 
+            that the input will converted into digital format making it 
+           ready for mathematical..</p>
+          </div>
+          <div className='services1'>
+          <p>The proposed idea involves machine learning (ML) 
+            t matical content. The 
+             user just needs to write the equation in the input box, after 
+            that the input will converted into digital format making it 
+           ready for mathematical..</p>
+          </div>
+          <div className='services1'>
+          <p>The proposed idea involves machine learning (ML) 
+            t matical content. The 
+             user just needs to write the equation in the input box, after 
+            that the input will converted into digital format making it 
+           ready for mathematical..</p>
+          </div>
+          </div>
         </section>
 
         <section id="services" className="services-section">
@@ -106,13 +123,21 @@ and differentiation.
           <p>Discover the range of services we offer.</p>
         </section>
 
-        <section id="contact" className="contact-section">
-          <h2>Contact Us</h2>
-          <p>We would love to hear from you. Get in touch!</p>
+        <section id="text-part" className="text-part">
+           <div className='text-parts'>
+            <h1>Text-box</h1>
+            <h3>Text-box</h3>
+            <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+             
+             <div className='btn-class'>
+              <button className='btn1'>Join us</button>
+              <button>Join us</button>
+             </div>
+           </div>
         </section>
       </main>
 
-      <footer>
+      <footer className='footer'>
         <p>&copy; 2025 MyWebsite. All rights reserved.</p>
       </footer>
     </div>

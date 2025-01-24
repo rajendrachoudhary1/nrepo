@@ -26,12 +26,12 @@ function App() {
            <h3>text box</h3>
            <button className='btn'>Join us</button>
            <p>The proposed idea involves machine learning (ML) 
-techniques for OCR to accurately convert handwritten 
-equations into digital format. Once the handwritten input is 
-converted into digital format, the system will perform various 
-mathematical operations such as finding roots, integration, 
-and differentiation.
-</p>
+             techniques for OCR to accurately convert handwritten 
+              equations into digital format. Once the handwritten input is 
+              converted into digital format, the system will perform various 
+              mathematical operations such as finding roots, integration, 
+              and differentiation.
+            </p>
 
            </div>
            <div className='home-second'>
@@ -68,11 +68,12 @@ and differentiation.
         </section>
 
         <section id="services" className="services">
-          <div className='aboutus'>
+          <div className='service'>
           <h2>services</h2>
           </div>
            
-          
+          <div className='main-service'>
+            
           <div className='services1'>
           <p>The proposed idea involves machine learning (ML) 
             techniques for OCR to accurately convert handwritten 
@@ -97,6 +98,7 @@ and differentiation.
            ready for mathematical operations like finding solutions, 
             differentiating it, integrating it.</p>
           </div>
+          </div>
 
           
         </section>
@@ -115,7 +117,7 @@ and differentiation.
       <footer>
         <p>&copy; 2025 MyWebsite. All rights reserved.</p>
       </footer>
-    </div>
+    </div>  
   );
 }
 
