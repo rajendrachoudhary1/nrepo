@@ -1,6 +1,6 @@
-import './App.css';
+import '../App.css';
 import React from 'react';
-import image1 from './Img/check-circle.png'
+import image1 from '../Img/check-circle.png'
  
 function Homepage1(){
      return(
