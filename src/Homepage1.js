@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import Img from './Img/check-circle.png'
+import image1 from './Img/check-circle.png'
  
 function Homepage1(){
      return(
@@ -18,24 +18,26 @@ function Homepage1(){
               <p>The proposed idea involves machine learning (ML) 
             techniques for OCR to accurately convert handwritten 
             equations into digital format.</p>
-                <div>
-                    <p></p>
+                 
+                <div className='check-circle'>
+                    <p><img src={image1}></img></p>
                     <p>The proposed idea involves machine learning (ML) 
                      techniques for OCR to accurately convert handwritten 
                      equations into digital format.</p>
                 </div>
-                <div>
-                    <p><img src='Img/check-circle.png'></img></p>
+                <div className='check-circle'>
+                    <p><img src={image1}></img></p>
                     <p>The proposed idea involves machine learning (ML) 
                      techniques for OCR to accurately convert handwritten 
                      equations into digital format.</p>
                 </div>
-                <div>
-                    <p></p>
+                <div className='check-circle'>
+                    <p><img src={image1}></img></p>
                     <p>The proposed idea involves machine learning (ML) 
                      techniques for OCR to accurately convert handwritten 
                      equations into digital format.</p>
                 </div>
+                 
               <h3><span>02</span>
                 Responsible Tech Use
               </h3>

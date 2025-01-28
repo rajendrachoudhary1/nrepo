@@ -172,17 +172,17 @@
   border: 2px solid rgb(8, 8, 8);
 }
 .underline {
-  display: block; /* Ensures it spans the width */
-  width: 80%; /* Adjust the width as needed */
-  height: 2px; /* Thickness of the underline */
-  background-color: #e4e6ea; /* Use the blue color you provided */
+  display: block;  
+  width: 80%;  
+  height: 2px;  
+  background-color: #e4e6ea; 
   
 }
 .underline1 {
-  display: block; /* Ensures it spans the width */
-  width: 85%; /* Adjust the width as needed */
-  height: 2px; /* Thickness of the underline */
-  background-color: #e4e6ea; /* Use the blue color you provided */
+  display: block;  
+  width: 85%; 
+  height: 2px;  
+  background-color: #e4e6ea;  
   
 }
 .thirdpart{
@@ -193,12 +193,13 @@
 }
 .third-section {
   border: 1px solid black;
-  height: 60vh; /* Full viewport height */
-  width: 50%; /* Adjusted width */
-  background-image: url('Img/teacher.jpg'); /* Ensure the correct path */
-  background-size: cover; /* Makes the image cover the entire section */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Prevent the image from repeating */
+  height: 60vh;  
+  width: 50%; 
+  background: 
+  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('Img/teacher.jpg');
+  background-size: cover;  
+  background-position: center; 
+  background-repeat: no-repeat;  
 }
 .third-section p{
   color: white;
@@ -221,6 +222,14 @@
 .third-section2 p{
   color: rgb(110, 108, 108);
 }
+.check-circle{
+  display: flex;
+}
+.check-circle img{
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+}
 .ourpartner{
   margin-left: 20px;
   margin-bottom: 50px;
@@ -240,10 +249,10 @@
 }
  
 .underline2 {
-  display: block; /* Ensures it spans the width */
-  width: 100%; /* Adjust the width as needed */
-  height: 2px; /* Thickness of the underline */
-  background-color: #e4e6ea; /* Use the blue color you provided */
+  display: block;  
+  width: 100%;  
+  height: 2px;  
+  background-color: #e4e6ea;  
   
 }
 .fourthsection{
