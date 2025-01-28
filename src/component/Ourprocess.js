@@ -4,7 +4,7 @@ import img2 from "../Img/brand1.jpg"
 import img3 from "../Img/brand2.jpg"
 import img4 from "../Img/brand3.jpg"
 
-function Homepage2(){
+function Ourprocess(){
     return(
         <>
         <section >
@@ -42,4 +42,4 @@ function Homepage2(){
         </>
     )
 }
-export default Homepage2;
+export default Ourprocess;

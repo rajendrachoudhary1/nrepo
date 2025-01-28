@@ -2,7 +2,7 @@ import '../App.css';
 import React from 'react';
 import image1 from '../Img/check-circle.png'
  
-function Homepage1(){
+function ResponsibleTech(){
      return(
         <>
           <section className='thirdpart'>
@@ -51,4 +51,4 @@ function Homepage1(){
         </>
      )   
 }
-export default Homepage1
+export default ResponsibleTech

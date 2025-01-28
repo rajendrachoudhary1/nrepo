@@ -2,7 +2,7 @@ import '../App.css';
 import React from 'react';
 import img1 from '../Img/grp.jpg'
 
-function Homepage3(){
+function Artical(){
     return(
         <>
         <section  className='fourthsection'>
@@ -49,4 +49,4 @@ function Homepage3(){
         </>
     )
 }
-export default Homepage3;
+export default Artical;

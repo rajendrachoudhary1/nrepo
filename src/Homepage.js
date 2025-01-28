@@ -3,9 +3,9 @@ import React from 'react';
 import Card from './component/Card';
 import Header from './component/Header';
 import Aboutus from './component/Aboutus';
-import Homepage1 from './component/Homepage1';
-import Homepage2 from './component/Homepage2';
-import Homepage3 from './component/Homepage3';
+import ResponsibleTech from './component/ResponsibleTech';
+import Ourprocess from './component/Ourprocess';
+import Artical from './component/Artical';
 import Abovefooter from './component/Abovefooter';
 import Services from './component/Services';
 import Footer from './component/Footer';
@@ -17,9 +17,9 @@ function Homepage(){
         <Header/>
         <Aboutus/>
         <Services/>
-        <Homepage1/>
-        <Homepage2/>
-        <Homepage3/>
+        <ResponsibleTech/>
+        <Ourprocess/>
+        <Artical/>
         <Abovefooter/>
         <Footer/>
  
