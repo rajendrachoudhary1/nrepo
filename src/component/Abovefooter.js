@@ -13,7 +13,7 @@ function Abovefooter(){
              
              <div className='btn-class'>
               <button className='btn1'>Join us</button>
-              <button>Join us</button>
+              <button className='btn2'>Join us</button>
              </div>
            </div>
         </section>

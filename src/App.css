@@ -131,12 +131,7 @@
   flex-wrap: wrap;
   /* border: 1px solid bisque; */
 }
-.footer{
-  height: 100px;
-  background-color: #61dafb;
-  text-align: center;
-  padding: 20px;
-}
+ 
 .text-parts{
   width: 100%;
   border: 1px solid black;
@@ -171,8 +166,10 @@
 }
 .btn1{
   background: transparent;
-  border: 2px solid rgb(8, 8, 8);
+  border: 2px solid white;
+  color: white;
 }
+ 
 .underline {
   display: block;  
   width: 80%;  
@@ -280,4 +277,40 @@
 }
 .news{
    padding: 10px;
+}
+.footer{
+   
+  background-color: #61dafb;
+  /* text-align: center; */
+  padding: 20px;
+  height: 50vh;
+}
+.footermain{
+  display: flex;
+  justify-content: space-evenly;
+}
+.footermain h4{
+  color: white;
+}
+ 
+.footerlogo p{
+  font-size: 60px;
+  color: white;
+  font-style: italic;
+}
+.footerdetails ul li{      
+       list-style-type: none;   
+}
+.footerdetails ul li a{      
+      text-decoration: none;
+      color: white; 
+}
+
+.footer-address{
+  display: flex;
+  
+}
+.footer-address p{
+  width: 200px;
+  color: white;
 }
