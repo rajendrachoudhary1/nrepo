@@ -1,19 +1,17 @@
 import '../App.css';
 import React from 'react';
-import Card from '../component/Card';
-import Header from '../component/Header';
-import Aboutus from '../component/Aboutus';
-import ResponsibleTech from '../component/ResponsibleTech';
-import Ourprocess from '../component/Ourprocess';
-import Artical from '../component/Artical';
-import Abovefooter from '../component/Abovefooter';
-import Services from '../component/Services';
-import Footer from '../component/Footer';
+import Aboutus from '../component/homepagecomponent/Aboutus';
+import ResponsibleTech from '../component/homepagecomponent/ResponsibleTech';
+import Ourprocess from '../component/homepagecomponent/Ourprocess';
+import Artical from '../component/homepagecomponent/Artical';
+import Abovefooter from '../component/homepagecomponent/Abovefooter';
+import Services from '../component/homepagecomponent/Services';
+import Footer from '../component/homepagecomponent/Footer';
+import Header from '../component/homepagecomponent/Header';
 
 function Homepage(){
     return(
         <>
-        
         <Header/>
         <Aboutus/>
         <Services/>
@@ -21,7 +19,7 @@ function Homepage(){
         <Ourprocess/>
         <Artical/>
         <Abovefooter/>
-        <Footer/>
+       
  
         </>
     )

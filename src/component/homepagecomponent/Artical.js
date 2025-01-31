@@ -1,6 +1,8 @@
-import '../App.css';
+ 
+import '../../App.css';
+
 import React from 'react';
-import img1 from '../Img/grp.jpg'
+import img1 from '../../Img/grp.jpg'
 
 function Artical(){
     return(

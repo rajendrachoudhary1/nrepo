@@ -314,3 +314,38 @@
   width: 200px;
   color: white;
 }
+/* service page css */
+ 
+.cardip-text{
+  
+  color: rgb(93, 90, 90);
+  padding-left: 250px ;
+  padding-right: 250px;
+
+}
+
+.card-ir{
+  display: flex;
+  justify-content: space-between;
+  margin: 40px;
+  margin-top: 0px;
+}
+.card-irfirstdiv{
+  margin: 40px;
+  width: 650px;
+}
+.card-irfirstdiv h1{
+   color: rgb(93, 90, 90);
+   font-size: 30px;
+}
+.card-irfirstdiv img{
+    width: 180px;
+}
+.card-irseconddiv{
+  margin: 40px;
+  padding: 30px;
+  color: rgb(93, 90, 90);
+}
+.card-irseconddiv ul li{
+  margin-bottom: 20px;
+}

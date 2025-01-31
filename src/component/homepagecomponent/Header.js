@@ -1,4 +1,6 @@
-import '../App.css';
+ 
+import '../../App.css';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import React from 'react';
  
  
@@ -6,15 +8,16 @@ function Header(){
      return(
         <> 
          <header>
-        <nav className="navbar">
+         
+         <nav className="navbar">
           <div className="home"> 
-          <li><a href="#home">Home</a></li>
+          <li><Link to="/">Home</Link></li>
           </div>
              
           <ul className="nav-links">
             
             <li><a href="#about">About</a></li>
-            <li><a href="#resources">Resources</a></li>
+            <li><Link to="/Servicepage">Resources</Link></li>
             <li><a href="#Join us" className='joinus'>Join us</a></li>
           </ul>
         </nav>

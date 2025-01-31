@@ -1,6 +1,8 @@
-import '../App.css';
+// If App.css is in the root /src folder
+import '../../App.css';
+
 import React from 'react';
-import image1 from '../Img/check-circle.png'
+import image1 from '../../Img/check-circle.png'
  
 function ResponsibleTech(){
      return(
