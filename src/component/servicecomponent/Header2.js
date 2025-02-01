@@ -17,15 +17,15 @@ function Header2(){
           <ul className="nav-links">
             
             <li><a href="#about">About</a></li>
-            <li><Link to="/Servicepage">Resources</Link></li>
+            <li><Link to="/Servicepage">Services</Link></li>
             <li><a href="#Join us" className='joinus'>Join us</a></li>
           </ul>
         </nav>
 
-        <section id="home" className="home-section">
+        <section id="home" className="home-section1">
            <div className='home-first'>
            <h1>text box</h1>
-           <h2>text box</h2>
+           <h3>text box</h3>
            
            </div>
                 

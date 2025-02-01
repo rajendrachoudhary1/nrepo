@@ -1,10 +1,12 @@
- 
+ .header1{
+  background-color:#70b6f0;
+ }
 .navbar{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: #70b6f0
+   
 }
 .home{
   list-style-type: none;
@@ -24,9 +26,8 @@
   font-size: 20px;
 }
 .nav-links li a ,.home li a{
- 
   text-decoration: none;
-  color: black;
+  color: rgb(235, 221, 221);
 }
 .home li a:hover{
   padding: 5px;
@@ -47,10 +48,8 @@
 }
 .home-section{
   display: flex;
-  /* flex-direction: column; */
   justify-content: space-between;
   align-items: center;
-  background-color:#70b6f0;
   padding: 30px;
   height: 80vh;
   
@@ -68,6 +67,12 @@
 }
 .home-first h1{
   font-size: 80px;
+  color: white;
+}
+.home-first h3{
+  font-size: 60px;
+  color: rgb(186, 239, 64);
+  font-style: italic;
 }
 .btn{
   background: white;
@@ -315,6 +320,15 @@
   color: white;
 }
 /* service page css */
+.header2{
+  background: 
+  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('Img/gp.jpg');
+  background-size: cover;  
+  background-position: center; 
+  background-repeat: no-repeat;  
+  height: 80vh;
+}
+ 
  
 .cardip-text{
   
