@@ -1,4 +1,4 @@
-// If App.css is in the root /src folder
+ 
 import '../../App.css';
 
 import React from 'react';
