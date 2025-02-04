@@ -389,7 +389,10 @@
   background-repeat: no-repeat;  
   height: 80vh;
 }
- 
+.textbox{
+  margin-left: 20px;
+}
+
  
 .cardip-text{
   
