@@ -19,7 +19,7 @@ function Headerabout(){
             
            <li><Link to="/Aboutpage">About</Link></li>
              <li><Link to="/Servicepage">Services</Link>  </li> 
-            <li><a href="#Join us" className='joinus'>Join us</a></li>
+             <li><button className='joinus joinabout'>Join us</button></li>
           </ul>
         </nav>
 

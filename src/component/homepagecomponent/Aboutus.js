@@ -7,18 +7,22 @@ import React from 'react';
 function Aboutus(){
      return(
         <> 
+          <div class="center-container">
+               <div class="half-circle-lower"></div>
+           </div>
          <section id="about" className="about-section">
+          
           <div className='aboutus'>
           <h2>About Us</h2>
           <p className='underline'></p>
           </div>
           <div className='aboutpart'>
-          <h3>The proposed idea involves machine learning (ML) 
-          techniques for OCR </h3>
+          <h1>The proposed idea involves machine learning (ML) 
+          techniques for OCR </h1>
           </div>
           
-          <div>
-          <p>The proposed idea involves machine learning (ML) 
+          <div className='aboutpart-para'>
+          <p className='aboutpart-p'>The proposed idea involves machine learning (ML) 
             techniques for OCR to accurately convert handwritten 
             equations into digital format. Once the handwritten input is 
             converted into digital format, the system will perform various 

@@ -1,7 +1,10 @@
  
 import '../../App.css';
-
+import img from '../../Img/Frame 177.png'
+import img1 from '../../Img/Frame 178.png'
+import img2 from '../../Img/Frame 165.png'
 import React from 'react';
+
  
  
 function Footer(){
@@ -11,6 +14,12 @@ function Footer(){
             <div className='footermain'>
                <div className='footerlogo'>
                   <p>LOGO</p>
+                  <div className='footericon'>
+                  <img src={img}></img>
+                  <img src={img1}></img>
+                  <img src={img2}></img>
+                  </div>
+                  
                </div>
                <div className='footerdetails'>
                    <h4>Pages</h4>
