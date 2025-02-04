@@ -12,7 +12,7 @@
   list-style-type: none;
   display: flex;
   flex-direction: row;
-  margin-left: 20px;
+  margin-left: 40px;
   font-size: 20px;
   
 }
@@ -50,7 +50,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 50px;
+  padding: 40px;
   height: 80vh;
   
 
@@ -390,7 +390,7 @@
   height: 80vh;
 }
 .textbox{
-  margin-left: 20px;
+  margin-left: 35px;
 }
 
  
@@ -435,9 +435,7 @@
 }
 /*...................... about us page css............... */
 .headerabout{
-   padding: 10px;
-   
-  
+   padding: 10px; 
 }
 .joinabout{
   border: 1px solid #70b6f0;
@@ -455,7 +453,7 @@
 .home-first-about p{
   font-size: 40px;
   padding-right: 40px;
-  padding-left: 20px;
+  padding-left: 40px;
   color: #70b6f0;
 }
 .home-first-about p span{
