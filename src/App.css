@@ -47,6 +47,7 @@
   border-radius: 20px;
   border: none;
   font-size: 20px;
+  margin-left: 10px;
 }
 
 .home-section{
@@ -99,11 +100,12 @@
   width: 60%;
 }
 .home-first h1{
- 
+  margin: 0;
   font-size: 80px;
   color: white;
 }
 .home-first h2{
+  margin: 14px;
   font-style: italic;
   font-size: 60px;
   color: rgb(224, 231, 91);
@@ -391,7 +393,7 @@
 }
 .artical{
   width: 100%;
-  height: 60vh;
+  height: 100%;
   border: 1px solid gray;
   margin: 30px;
   background-color: aliceblue;
@@ -412,6 +414,13 @@
 .news{
    padding: 10px;
 }
+.news h2{
+  color: #585757;
+}
+.article-p{
+  font-size: 25px;
+  color: #656565;
+}
 .footer{
   background: #70B6F0;
   padding: 20px;
@@ -431,10 +440,11 @@
   margin: 10px;
 }
 .footermain h4{
+  font-size: 26px;
   color: white;
 }
 .footerlogo{
-  width: 60%;
+  width: 900px;
 }
  
 .footerlogo p{
@@ -443,7 +453,8 @@
   font-style: italic;
 }
 .footerdetails ul li{      
-       list-style-type: none;   
+       list-style-type: none;
+       font-size: 23px;   
 }
 .footerdetails ul li a{      
       text-decoration: none;
@@ -456,6 +467,7 @@
 .footer-address p{
   width: 50%;
   color: white;
+  padding-left: 20px;
 }
 /*............................ service page css................. */
 .header2{
@@ -468,7 +480,7 @@
 }
 .textbox{
   margin-left: 35px;
-  margin-top: 230px;
+  margin-top: 10%;
 }
 .textbox h1{
   margin: 0;

@@ -15,7 +15,7 @@ function Aboutus(){
          <section id="about" className="about-section">
           
           <div className='aboutus'>
-          <h2>About Us</h2>
+          <h2>About us</h2>
           <p className='underline'></p>
           </div>
           <div className='aboutpart'>

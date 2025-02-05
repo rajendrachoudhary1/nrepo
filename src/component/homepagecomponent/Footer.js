@@ -1,5 +1,6 @@
  
 import '../../App.css';
+import {Link } from 'react-router-dom';
 import img from '../../Img/Frame 177.png'
 import img1 from '../../Img/Frame 178.png'
 import img2 from '../../Img/Frame 165.png'
@@ -25,9 +26,9 @@ function Footer(){
                    <h4>Pages</h4>
                    <p className='underline'></p>
                    <ul>
-                     <li><a href='#home'>Home</a></li>
-                     <li> <a href='#Aboutus'>About us</a></li>
-                     <li><a href='#Resources'>Resources</a></li>
+                   <li><Link to="/">Home</Link></li>
+                   <li><Link to="/Aboutpage">About</Link></li>
+                   <li><Link to="/Servicepage">Services</Link></li>
                    </ul>
                    
                    <h4>Address</h4>
