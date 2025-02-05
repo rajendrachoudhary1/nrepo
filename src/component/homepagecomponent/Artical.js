@@ -2,7 +2,7 @@
 import '../../App.css';
 
 import React from 'react';
-import img1 from '../../Img/grp.jpg'
+import img1 from '../../Img/agrp.jpg'
 
 function Artical(){
     return(
