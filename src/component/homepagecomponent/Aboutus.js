@@ -10,6 +10,8 @@ function Aboutus(){
           <div class="center-container">
                <div class="half-circle-lower"></div>
            </div>
+
+
          <section id="about" className="about-section">
           
           <div className='aboutus'>
@@ -17,8 +19,7 @@ function Aboutus(){
           <p className='underline'></p>
           </div>
           <div className='aboutpart'>
-          <h1>The proposed idea involves machine learning (ML) 
-          techniques for OCR </h1>
+          <h1>Lorem Ipsum is <br></br> simply dummy text</h1>
           </div>
           
           <div className='aboutpart-para'>
@@ -45,8 +46,7 @@ function Aboutus(){
            ready for mathematical operations like finding solutions, 
             differentiating it, integrating it.</p>
 
-           
-            <p className='p3'>About Us</p>
+            <a className='p3'>About us</a>
           </div>
 
           

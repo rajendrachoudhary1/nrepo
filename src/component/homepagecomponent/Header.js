@@ -21,18 +21,15 @@ function Header(){
             <li><button className='joinus'>Join us</button></li>
           </ul>
         </nav>
-        <section id="home" className="home-section">
+        <section  className="home-section-main">
+          
+         <div  className="home-section">
+
            <div className='home-first'>
-           <h1>text box</h1>
-           <h2>text box</h2>
-           <button className='btn'>Join us</button>
-           <p className='home-section-p'>The proposed idea involves machine learning (ML) 
-            techniques for OCR to accurately convert handwritten 
-            equations into digital format. Once the handwritten input is 
-           converted into digital format, the system will perform various 
-           mathematical operations such as finding roots, integration, 
-           and differentiation.
-          </p>
+             <h1>Text box</h1>
+             <h2>text box</h2>
+             <button className='joinus'>Join us</button>
+         
            </div>
            <div>
                 <div className='home-second'>
@@ -40,12 +37,19 @@ function Header(){
                 <div>
                 <p className='underline1'></p>
                 </div>
-           </div>      
+           </div>
+         </div>
+                
         </section>
+
+        <p className='home-section-p'>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+
+
         <div class="center-container">
                <div class="half-circle-upar"></div>
-         </div>
-
+         </div> 
       </header> 
        
 

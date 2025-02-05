@@ -1,4 +1,4 @@
-// If App.css is in the root /src folder
+ 
 import '../../App.css';
 
 import React from 'react'
@@ -6,12 +6,16 @@ import img2 from "../../Img/brand1.jpg"
 import img3 from "../../Img/brand2.jpg"
 import img4 from "../../Img/brand3.jpg"
 
-function Ourprocess(){
+function ourpartner(){
     return(
         <>
         <section >
-            <h3 className='ourpartner'>Our partner</h3>
-            
+            <div className='our'>
+            <h3 className='ourpartner'>OUR PARTNER</h3>
+            <p className='underline-ourparter'></p>
+            </div>
+             
+
 
             <p className='underline2'></p>
             <div className='partner'>
@@ -44,4 +48,4 @@ function Ourprocess(){
         </>
     )
 }
-export default Ourprocess;
+export default ourpartner;

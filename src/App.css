@@ -6,6 +6,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding: 20px 20px 20px ;
   
 }
 .home{
@@ -20,6 +21,7 @@
   list-style-type: none;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   flex-direction: row;
   gap: 30px;
   margin-right: 20px;
@@ -41,23 +43,27 @@
 .joinus {
   color: #70B6F0;  
   background-color: rgb(255, 255, 255); 
-  padding: 10px 20px;
+  padding: 10px 30px;
   border-radius: 20px;
   border: none;
+  font-size: 20px;
 }
 
 .home-section{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
-  padding: 40px;
-  height: 80vh;
-  
-
+  padding-right: 90px;
+  padding-left: 90px;
+ 
 }
+ 
 .home-section-p{
   font-size: 24px;
   color: white;
+  padding-right: 90px;
+  padding-left: 90px;
+  text-align: justify;
 }
 .center-container {
   display: flex;
@@ -83,9 +89,9 @@
 
 
 .home-second{
-  width: 250px;
-  height: 250px;
-  margin-right: 50px;
+  width: 450px;
+  height: 450px;
+  margin-left: 250px;
   background-color: black;
 
 }
@@ -127,30 +133,45 @@
   
 }
 .aboutus{
-  width: 70%;
+  width: 400px; 
+  padding-top: 27px;
+}
+.aboutus h2{
+   font-size: 29px;
+  color: #656565;
+  margin: 0px;
 }
 .aboutpart{
-  margin-left: 100px;
-  margin-right: 40px;
   color: gray;
+  width: 500px;
+}
+.aboutpart h1{
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 500;
+  color: #656565;
 }
  .aboutpart-para{
-  width: 120%;
+  padding-left: 40px;
+  width: 1220px;
  }
 .aboutpart-p{
   /* margin-left: 20%; */
   font-size: 24px;
+  font-weight: 400;
+  color: #656565;
   
 }
 .p2{
-  /* margin-left: 20%; */
+  
   color: gray;
   margin-bottom: 30px;
   font-size: 20px;
 }
 .p3{
-  margin-left: 20%;
+   
   color:#70b6f0;
+  text-decoration: underline;
 }
  
 .services{
@@ -163,8 +184,8 @@
   margin-bottom: 20px;
   margin-top: 20px;
   padding: 10px;
-  width: 300px;
-  height: 320px;
+  width: 400px;
+  height: 420px;
   border-radius: 1px;
   overflow: hidden;
   background-color: aliceblue;;
@@ -172,23 +193,36 @@
 }
 .services1 h2{
   color: rgb(75, 74, 74);
+  font-weight: 500;
+  font-size: 30px;
 }
+
 .services1 h3{
   color: gray;
+  font-size: 26px;
+}
+.services1 p{
+  font-size: 23px;
+  color: #656565;
+}
+.services1 ul li{
+  font-size: 20px;
+  padding: 10px;
+  color: #656565;
 }
 .main-service{
-  width: 200%;
+  width: 1000px;
   display: flex;
   flex-wrap: wrap;
   /* border: 1px solid bisque; */
 }
  
 .text-parts{
-  width: 100%;
+  
   border: 1px solid black;
   height: 50vh;
   background: 
-  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('Img/gp.jpg');
+  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('Img/agrp.jpg');
   background-size: cover;
   background-position: center;
   opacity: 10px;
@@ -196,8 +230,22 @@
   text-align: center;
   margin-bottom: 30px;
   background-color: (0,0,0,2);
+  padding: 200px;
    
 }
+.text-parts h1{
+  font-size: 50px;
+  margin: 0;
+}
+.text-parts h3{
+  font-size: 40px;
+  font-style: italic;
+  color: yellow;
+}
+.text-parts p{
+  font-size: 24px;
+}
+ 
 .btn-class{
   
   display: flex;
@@ -206,17 +254,25 @@
   margin: 10px;
   
 }
-.btn-class button{
-  margin: 20px;
-  font-size: 20px;
-  padding: 10px;
-  border-radius: 30px;
-  
+.btn-class{
+   margin: 40px;
+   gap: 20px;
 }
 .btn1{
+  border-radius: 20px;
+  padding: 10px 40px;
+  font-size: 20px;
+  color: #70B6F0;
+  border: none;
+}
+.btn2{
+  border-radius: 20px;
+  padding: 10px 40px;
+  font-size: 20px;
+  color: #ffffff;
   background: transparent;
-  border: 2px solid white;
-  color: white;
+  border: 1px solid white;
+  
 }
  
 .underline {
@@ -230,7 +286,7 @@
 }
 .underline1 {
   display: block;  
-  width: 85%; 
+  width: 100%; 
   height: 2px;  
   background-color: #e4e6ea;  
   
@@ -239,6 +295,7 @@
   margin-top: 20px;
   margin-bottom: 20px;
   display: flex;
+  background-color: aliceblue;
 
 }
 .third-section {
@@ -249,28 +306,31 @@
   linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('Img/teacher.jpg');
   background-size: cover;  
   background-position: center; 
-  background-repeat: no-repeat;  
+  background-repeat: no-repeat;
+    
 }
 .third-section p{
   color: white;
-  font-size: 30px;
+  font-size: 40px;
   margin-top: 300px;
   margin-left: 30px;
 }
 .third-section2{
   margin: 30px;
   padding: 30px;
-  background-color: aliceblue;
+  background-color: rgb(255, 255, 255);
   
 }
 .third-section2 h3{
   color: rgb(88, 86, 86);
+  font-size: 24px;
 }
 .third-section2 span{
   margin-right: 40px;
 }
 .third-section2 p{
   color: rgb(110, 108, 108);
+  font-size: 20px;
 }
 .check-circle{
   display: flex;
@@ -280,9 +340,22 @@
   height: 20px;
   margin-right: 20px;
 }
-.ourpartner{
+.our{
+  margin-bottom: 100px;
+  width: 400px;
   margin-left: 20px;
-  margin-bottom: 50px;
+}
+.ourpartner{
+  font-size: 25px;
+  color: #656565;
+  margin: 1px;
+}
+.underline-ourparter{
+  margin-top: 1px;
+  margin-bottom: 6px; 
+  width: 100%;  
+  height: 2px;  
+  background-color: #e4e6ea;  
 }
 .partner{
    text-align: center;
@@ -295,7 +368,6 @@
 .part img{
   width: 50px;
   height: 40px;
-  
 }
  
 .underline2 {
@@ -303,11 +375,9 @@
   width: 100%;  
   height: 2px;  
   background-color: #e4e6ea;  
-  
 }
 .fourthsection{
   margin-top: 140px;
-
 }
 .fourthsection h3{
   margin-left: 20px;
@@ -329,7 +399,15 @@
 .newimg{
   width: 100%;
   height: 34vh;
-  
+}
+.articles-div{
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+.articles-div p{
+  font-size: 26px;
+  color: #656565;
 }
 .news{
    padding: 10px;
@@ -374,7 +452,6 @@
 
 .footer-address{
   display: flex;
-  
 }
 .footer-address p{
   width: 50%;
@@ -383,7 +460,7 @@
 /*............................ service page css................. */
 .header2{
   background: 
-  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('Img/gp.jpg');
+  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('Img/agrp.jpg');
   background-size: cover;  
   background-position: center; 
   background-repeat: no-repeat;  
@@ -391,16 +468,20 @@
 }
 .textbox{
   margin-left: 35px;
+  margin-top: 230px;
+}
+.textbox h1{
+  margin: 0;
+}
+.textbox h3{
+  margin: 0;
 }
 
- 
 .cardip-text{
-  
   color: rgb(93, 90, 90);
   padding-left: 250px ;
   padding-right: 250px;
   font-size: 20px;
-
 }
 
 .card-ir{
@@ -583,6 +664,5 @@
   margin-left: 40%;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 15%;
-   
+  margin-bottom: 15%; 
 }

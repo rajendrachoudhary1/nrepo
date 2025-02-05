@@ -10,7 +10,7 @@ function Services(){
         <> 
          <section id="services" className="services">
           <div className='aboutus'>
-          <h2>services</h2>
+          <h2>Services</h2>
           <p className='underline'></p>
           </div>
            

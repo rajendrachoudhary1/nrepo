@@ -2,8 +2,6 @@ body, html {
     margin: 0;
     padding: 0;
     height: 100%;
-    font-family: 'Inter', sans-serif;
-
-   
- 
+    font-family: Helvetica Neue;
+    font-weight: 400;
 } 

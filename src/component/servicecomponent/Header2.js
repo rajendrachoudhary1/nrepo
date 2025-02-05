@@ -24,8 +24,8 @@ function Header2(){
 
         <section id="home" className="home-section1">
            <div className='home-first textbox'>
-           <h1>text box</h1>
-           <h3>text box</h3>
+           <h1>Text box</h1>
+           <h3>Text box</h3>
            
            </div>
                 
