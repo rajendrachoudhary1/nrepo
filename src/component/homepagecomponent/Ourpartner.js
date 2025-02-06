@@ -11,7 +11,7 @@ function ourpartner(){
         <>
         <section >
             <div className='our'>
-            <h3 className='ourpartner'>OUR PARTNER</h3>
+            <h3 className='ourpartner'>Our Partner</h3>
             <p className='underline-ourparter'></p>
             </div>
              

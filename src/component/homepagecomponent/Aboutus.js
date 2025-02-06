@@ -12,7 +12,7 @@ function Aboutus(){
            </div>
 
 
-         <section id="about" className="about-section">
+         <section   className="about-section">
           
           <div className='aboutus'>
           <h2>About us</h2>

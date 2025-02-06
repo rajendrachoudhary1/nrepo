@@ -374,8 +374,9 @@
  
 .underline2 {
   display: block;  
-  width: 100%;  
-  height: 2px;  
+  height: 2px; 
+  margin-left: 15px; 
+  margin-right: 15px; 
   background-color: #e4e6ea;  
 }
 .fourthsection{
@@ -460,6 +461,10 @@
       text-decoration: none;
       color: white; 
 }
+.footerdetails h4{
+  margin: 0;
+  margin-top: 50px;
+}
 
 .footer-address{
   display: flex;
@@ -527,9 +532,7 @@
   font-size: 22px;
 }
 /*...................... about us page css............... */
-.headerabout{
-   padding: 10px; 
-}
+ 
 .joinabout{
   border: 1px solid #70b6f0;
 }
@@ -546,11 +549,11 @@
 .home-first-about p{
   font-size: 40px;
   padding-right: 40px;
-  padding-left: 40px;
+  padding-left: 60px;
   color: #70b6f0;
 }
 .home-first-about p span{
-   color: yellowgreen;
+   color: rgb(226, 226, 4);
 }
 
 .home-second-about img{
@@ -582,11 +585,13 @@
    
 }
 .about-p-first{
+  margin-left: 50px;
   font-size: 24px;
   color: white;
 }
 .about-p{
-  font-size: 15px;
+  margin-left: 50px;
+  font-size: 20px;
   color: white;
 }
 .about-main-third{
@@ -619,13 +624,17 @@
   width: 1800px;
 }
 .about-card-text h3{
+  margin: 0;
+  margin-top: 20px;
   color: rgb(80, 78, 78);
   font-size: 23px;
 }
 .about-card-text-p{
   padding: 50px;
+  padding-right: 150px;
   color: rgb(80, 78, 78);
-  font-size: 20px;
+  font-size: 24px;
+  text-align: justify;
  }
 .team-card{
   width: 100%;
@@ -647,8 +656,11 @@
 .team-card-text{
   padding: 10px;
 }
+.team-card-text h3{
+  color: #656565;
+}
 .team-card-text p{
-   color: rgb(86, 80, 80);
+   color: #A1A1A1;
 }
 .team-card-text-p{
   margin: 0px;
@@ -659,22 +671,159 @@
  
 .team{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  align-items: center;
   padding: 20px;
-  gap: 180px;
-  font-size: 150%;
 }
 .team h3{
+  width: 200px;
   font-size: 36px;
   color: gray;
+  margin: 0;
 }
 .team h2{
+  width: 400px;
+  font-size: 40px;
   font-style: italic;
   color: gray;
+}
+.team-p{
+  width: 1090px;
+  font-size: 24px;
+  color: #656565;
 }
 .teamcard-section{
   margin-left: 40%;
   display: flex;
   justify-content: space-between;
   margin-bottom: 15%; 
+}
+
+/*--------------------------- media css query--------------------- */
+ 
+
+ 
+ 
+
+ 
+@media screen and (max-width: 1430px) {
+  .home-second{
+    width: 330px;
+    height: 330px;
+  }
+  .home-section-p{
+    font-size: 16px;
+     
+  }
+  .aboutus h2{
+    font-size: 20px;
+ }
+ .aboutpart h1{
+   font-size: 24px;
+ }
+ 
+ .aboutpart-p{
+   font-size: 16px;
+   font-weight: 300;
+ }
+ .p2{
+    font-size: 16px;
+ }
+  .services1{
+    padding: 20px;
+    width: 300px;
+    height: 330px; 
+  }
+  .services1 h2{
+    font-weight: 300;
+    font-size: 22px;
+  }
+  
+  .services1 h3{
+    font-size: 20px;
+  }
+  .services1 p{
+    font-size: 16px;
+     
+  }
+  .services1 ul li{
+    font-size: 16px;  
+  }
+  .third-section2 p{
+    color: rgb(110, 108, 108);
+    font-size: 16px;
+  }
+  .third-section2 h3{
+    font-size: 20px;
+  }
+  .ourpartner{
+    font-size: 20px;
+  }
+  .articles-div p{
+    font-size: 16px; 
+  }
+  .article-p{
+    font-size: 16px;
+  }
+  .text-parts h1{
+    font-size: 40px;
+    margin: 0;
+  }
+  .text-parts h3{
+    font-size: 30px;
+    font-style: italic;
+    color: yellow;
+  }
+  .text-parts p{
+    font-size: 16px;
+  }
+  .footerlogo p{
+    font-size: 60px;
+    color: white;
+    font-style: italic;
+  }
+  .footermain h4{
+    font-size: 20px;
+  }
+ 
+  .footerdetails ul li{ 
+         font-size: 16px;   
+  }
+  /*--------------------- service page ----------- */
+
+  .cardip-text{
+    font-size: 16px;
+  }
+  .card-irfirstdiv h1{
+    font-size: 20px;
+  }
+  .card-irseconddiv p{
+    font-size: 16px;
+  }
+  .card-irseconddiv ul li{
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  /* ----------------------about us ----------------- */
+  .about-p-first{
+    font-size: 20px;
+  }
+  .about-p{
+    font-size: 16px;   
+  }
+  .about-card-text-p{
+    font-size: 16px;
+  }
+  .team h3{
+  width: 200px;
+  font-size: 20px;
+}
+.team h2{
+  width: 200px;
+  font-size: 20px;
+}
+.team-p{
+  width: 640px;
+  font-size: 16px;
+}
 }
