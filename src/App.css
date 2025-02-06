@@ -484,8 +484,8 @@
   height: 80vh;
 }
 .textbox{
-  margin-left: 35px;
-  margin-top: 10%;
+  margin-left: 85px;
+  margin-top: 400px;
 }
 .textbox h1{
   margin: 0;
@@ -790,7 +790,17 @@
          font-size: 16px;   
   }
   /*--------------------- service page ----------- */
-
+  .textbox{
+    margin-left: 85px;
+    margin-top: 200px;
+  }
+  .textbox h1{
+    font-size: 40px;
+  }
+  .textbox h3{
+    font-size: 40px;
+  
+  }
   .cardip-text{
     font-size: 16px;
   }
