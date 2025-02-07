@@ -38,7 +38,7 @@ function ourpartner(){
                 <div className='part'>
 
                 <img src={img4}></img>
-               <h3>Brand name</h3>
+                <h3>Brand name</h3>
                 </div>
                <p className='underline2'></p>
             </div>
