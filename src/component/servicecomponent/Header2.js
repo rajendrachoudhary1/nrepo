@@ -1,7 +1,7 @@
  
 import '../../App.css';
-import { Link } from 'react-router-dom';
 import React from 'react';
+import Navbar from '../homepagecomponent/Navbar';
  
  
 function Header2(){
@@ -9,18 +9,7 @@ function Header2(){
         <> 
          <header className='header2'>
          
-         <nav className="navbar">
-          <div className="home"> 
-          <li><Link to="/">Home</Link></li>
-          </div>
-             
-          <ul className="nav-links">
-            
-           <li><Link to="/Aboutpage">About</Link></li>
-             <li><Link to="/Servicepage">Services</Link>  </li> 
-             <li><button className='joinus'>Join us</button></li>
-          </ul>
-        </nav>
+         <Navbar/>
 
         <section id="home" className="home-section1">
            <div className='home-first textbox'>

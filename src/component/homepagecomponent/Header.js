@@ -2,6 +2,8 @@
 import '../../App.css';
 import {Link } from 'react-router-dom';
 import React from 'react';
+import Navbar from './Navbar';
+
  
  
 function Header(){
@@ -9,18 +11,9 @@ function Header(){
         <> 
          <header className='header1'>
          
-         <nav className="navbar">
-          <div className="home"> 
-          <li><Link to="/">Home</Link></li>
-          </div>
-             
-          <ul className="nav-links">
-            
-            <li><Link to="/Aboutpage">About</Link></li>
-            <li><Link to="/Servicepage">Services</Link></li>
-            <li><button className='joinus'>Join us</button></li>
-          </ul>
-        </nav>
+          <Navbar/>
+         
+        
         <section  className="home-section-main">
           
          <div  className="home-section">
