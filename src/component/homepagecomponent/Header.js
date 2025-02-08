@@ -21,14 +21,14 @@ function Header(){
            <div className='home-first'>
              <h1>Text box</h1>
              <h2>text box</h2>
-             <button className='joinus'>Join us</button>
+             <a href="https://www.google.com"><button className='joinus'>Join Us</button></a>
          
            </div>
            <div>
                 <div className='home-second'>
                 </div>
                 <div>
-                <p className='underline1'></p>
+                <div className='underline'></div>
                 </div>
            </div>
          </div>

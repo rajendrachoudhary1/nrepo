@@ -8,10 +8,10 @@ import Card from './Card';
 function Services(){
      return(
         <> 
-         <section id="services" className="services">
+         <section className="services">
           <div className='aboutus'>
-          <h2>Services</h2>
-          <p className='underline'></p>
+              <h2>Services</h2>
+              <div className='underline'></div>
           </div>
            
           <div className='main-service'>

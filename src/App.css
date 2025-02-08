@@ -6,7 +6,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 20px 20px ;
+  padding: 20px 20px 20px;
   background-color: transparent;
   
 }
@@ -49,6 +49,9 @@
   border: none;
   font-size: 20px;
   margin-left: 10px;
+}
+.joinus:hover{
+  cursor: pointer;
 }
 
 .home-section{
@@ -95,6 +98,7 @@
   height: 450px;
   margin-left: 250px;
   background-color: black;
+  border-radius: 4px;
 
 }
 .home-first{
@@ -110,6 +114,7 @@
   font-style: italic;
   font-size: 60px;
   color: rgb(224, 231, 91);
+  font-family: 'Didot';
 }
 .home-first h3{
   
@@ -146,7 +151,8 @@
 }
 .aboutpart{
   color: gray;
-  width: 500px;
+  width: 600px;
+  padding-left: 100px;
 }
 .aboutpart h1{
   font-size: 30px;
@@ -155,7 +161,7 @@
   color: #656565;
 }
  .aboutpart-para{
-  padding-left: 40px;
+  padding-left: 20px;
   width: 1220px;
  }
 .aboutpart-p{
@@ -179,16 +185,19 @@
  
 .services{
    display: flex;
+   justify-content: space-evenly;
    margin: 20px;
+
     
 }
+ 
 .services1{
   margin-left: 60px;
   margin-bottom: 20px;
   margin-top: 20px;
   padding: 10px;
-  width: 400px;
-  height: 420px;
+  width: 500px;
+  height: 520px;
   border-radius: 1px;
   overflow: hidden;
   background-color: aliceblue;;
@@ -202,7 +211,7 @@
 
 .services1 h3{
   color: gray;
-  font-size: 26px;
+  font-size: 24px;
 }
 .services1 p{
   font-size: 23px;
@@ -214,16 +223,16 @@
   color: #656565;
 }
 .main-service{
-  width: 1000px;
+  padding-left: 150px;
+  margin-top: 20px;
   display: flex;
   flex-wrap: wrap;
+  width: 1720px;
   /* border: 1px solid bisque; */
 }
  
 .text-parts{
-  
   border: 1px solid black;
-  height: 50vh;
   background: 
   linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('Img/agrp.jpg');
   background-size: cover;
@@ -242,11 +251,15 @@
 }
 .text-parts h3{
   font-size: 40px;
-  font-style: italic;
+  margin: 0;
   color: yellow;
+  font-style: italic;
+  font-family: 'Didoni';
 }
 .text-parts p{
   font-size: 24px;
+  padding-left: 250px;
+  padding-right: 250px;
 }
  
 .btn-class{
@@ -279,19 +292,12 @@
 }
  
 .underline {
-  margin-top: 4px;
+  margin-top: 6px;
   margin-bottom: 6px;
   display: block;  
-  width: 80%;  
+  width: 100%;  
   height: 2px;  
   background-color: #e4e6ea; 
-  
-}
-.underline1 {
-  display: block;  
-  width: 100%; 
-  height: 2px;  
-  background-color: #e4e6ea;  
   
 }
 .thirdpart{
@@ -345,20 +351,13 @@
 }
 .our{
   margin-bottom: 100px;
-  width: 400px;
+  width: 340px;
   margin-left: 20px;
 }
 .ourpartner{
   font-size: 25px;
   color: #656565;
   margin: 1px;
-}
-.underline-ourparter{
-  margin-top: 1px;
-  margin-bottom: 6px; 
-  width: 100%;  
-  height: 2px;  
-  background-color: #e4e6ea;  
 }
 .partner{
    text-align: center;
@@ -372,14 +371,6 @@
 .part img{
   width: 50px;
   height: 40px;
-}
- 
-.underline2 {
-  display: block;  
-  height: 2px; 
-  margin-left: 15px; 
-  margin-right: 15px; 
-  background-color: #e4e6ea;  
 }
 .fourthsection{
   margin-top: 140px;
@@ -400,6 +391,7 @@
   /* border: 1px solid gray; */
   margin: 30px;
   background-color: aliceblue;
+ 
 }
 .newimg{
   width: 100%;
@@ -409,6 +401,9 @@
   display: flex;
   justify-content: space-between;
   margin: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  
 }
 .articles-div p{
   font-size: 26px;
@@ -422,7 +417,8 @@
 }
 .article-p{
   font-size: 25px;
-  color: #656565;
+  color:   #A1A1A1;
+  ;
 }
 .footer{
   background: #70B6F0;
@@ -475,6 +471,13 @@
   width: 50%;
   color: white;
   padding-left: 20px;
+}
+.underline-page{
+  margin-top: 4px;
+  margin-bottom: 6px;
+  display: block;  
+  width: 70%;   
+  border: 1px solid #EECD20; 
 }
 /*............................ service page css................. */
 .header2{
@@ -624,6 +627,7 @@
 }
 .about-card-text{
   width: 1800px;
+  margin-right: 40px;
 }
 .about-card-text h3{
   margin: 0;
@@ -632,15 +636,15 @@
   font-size: 23px;
 }
 .about-card-text-p{
-  padding: 50px;
-  padding-right: 150px;
+  padding: 40px;
+  padding-right: 80px;
   color: rgb(80, 78, 78);
   font-size: 24px;
   text-align: justify;
  }
 .team-card{
   width: 100%;
-  height: 300px;
+  /* height: 300px; */
   /* border: 1px solid black; */
   margin: 10px;
    
@@ -774,10 +778,13 @@
   .text-parts h3{
     font-size: 30px;
     font-style: italic;
-    color: yellow;
+    
+    /* font-family: Didot; */
   }
   .text-parts p{
     font-size: 16px;
+    padding-left: 100px;
+    padding-right: 100px;
   }
   .footerlogo p{
     font-size: 60px;

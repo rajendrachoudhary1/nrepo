@@ -15,11 +15,11 @@ function Aboutus(){
          <section   className="about-section">
           
           <div className='aboutus'>
-          <h2>About us</h2>
-          <p className='underline'></p>
+              <h2>About us</h2>
+              <div className='underline'></div>
           </div>
           <div className='aboutpart'>
-          <h1>Lorem Ipsum is <br></br> simply dummy text</h1>
+             <h1>Lorem Ipsum is <br></br> simply dummy text</h1>
           </div>
           
           <div className='aboutpart-para'>

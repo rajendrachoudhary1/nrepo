@@ -8,9 +8,9 @@ function Artical(){
     return(
         <>
         <section  className='fourthsection'>
-           <div className='our'>
-            <h3 className='ourpartner'>Articles and news</h3>
-            <p className='underline-ourparter'></p>
+           <div className='aboutus our'>
+            <h2>Articles and news</h2>
+            <p className='underline'></p>
             </div>
 
             <div className='mainartical'>
@@ -22,7 +22,7 @@ function Artical(){
                         <p>2 min</p> 
                       </div>
 
-                      <p className='underline'></p>
+                      <div className='underline'></div>
                       <h2>Intelligent Responses</h2>
                       <p className='article-p'>loren the system will perform various 
                       mathematical operations such as finding roots, integration, 

@@ -24,7 +24,7 @@ function Footer(){
                </div>
                <div className='footerdetails'>
                    <h4>Pages</h4>
-                   <p className='underline'></p>
+                   <p className='underline-page'></p>
                    <ul>
                    <li><Link to="/">Home</Link></li>
                    <li><Link to="/Aboutpage">About</Link></li>
@@ -32,7 +32,7 @@ function Footer(){
                    </ul>
                    
                    <h4>Address</h4>
-                   <p className='underline'></p>
+                   <div className='underline-page'></div>
 
                    <div className='footer-address'> 
                      <p>Lorem Ipsum has been the industry's standard

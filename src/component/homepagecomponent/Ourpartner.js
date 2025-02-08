@@ -10,37 +10,37 @@ function ourpartner(){
     return(
         <>
         <section >
-            <div className='our'>
-            <h3 className='ourpartner'>Our Partner</h3>
-            <p className='underline-ourparter'></p>
+            <div className='aboutus our'>
+            <h2>Our Partner</h2>
+            <div className='underline'></div>
             </div>
              
 
 
-            <p className='underline2'></p>
+            <div className='underline'></div>
             <div className='partner'>
                 <div className='part'>
 
                 <img src={img2}></img>
-               <h3>Brand name</h3>
+               <h3>BRAND NAME</h3>
                 </div>
-               <p className='underline2'></p>
+               <div className='underline'></div>
             </div>
             <div className='partner'>
                 <div className='part'>
 
                 <img src={img3}></img>
-               <h3>Brand name</h3>
+               <h3>BRAND NAME</h3>
                 </div>
-               <p className='underline2'></p>
+               <div className='underline'></div>
             </div>
             <div className='partner'>
                 <div className='part'>
 
                 <img src={img4}></img>
-                <h3>Brand name</h3>
+                <h3>BRAND NAME</h3>
                 </div>
-               <p className='underline2'></p>
+               <div className='underline'></div>
             </div>
              
              

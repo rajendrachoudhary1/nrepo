@@ -26,7 +26,7 @@ function Cardip(){
                 </ul>
             </div>
         </section>
-        <p className='underline2'></p>
+        <div className='underline'></div>
   
         </>
      )   

@@ -19,7 +19,7 @@ function Navbar(){
             
             <li><Link to="/Aboutpage">About</Link></li>
             <li><Link to="/Servicepage">Services</Link></li>
-            <li><button className='joinus'>Join us</button></li>
+            <li><a href="https://www.google.com"><button className='joinus'>Join Us</button></a></li>
           </ul>
         </nav>
         
