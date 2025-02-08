@@ -451,9 +451,13 @@
   color: white;
   font-style: italic;
 }
+.footerdetails ul{
+  padding: 0;
+}
 .footerdetails ul li{      
        list-style-type: none;
-       font-size: 23px;   
+       font-size: 23px;
+       padding: 2px;   
 }
 .footerdetails ul li a{      
       text-decoration: none;
@@ -466,11 +470,13 @@
 
 .footer-address{
   display: flex;
+  gap: 20px;
 }
 .footer-address p{
   width: 50%;
   color: white;
-  padding-left: 20px;
+  
+  /* padding-left: 10px; */
 }
 .underline-page{
   margin-top: 4px;
@@ -706,7 +712,28 @@
 }
 
 /*--------------------------- media css query--------------------- */
- 
+@media screen and (max-width: 1630px){
+  .services1{
+    padding: 20px;
+    width: 350px;
+    height: 330px; 
+  }
+  .services1 h2{
+    font-weight: 300;
+    font-size: 22px;
+  }
+  
+  .services1 h3{
+    font-size: 20px;
+  }
+  .services1 p{
+    font-size: 16px;
+     
+  }
+  .services1 ul li{
+    font-size: 16px;  
+  }
+}
 
  
  
