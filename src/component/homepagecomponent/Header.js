@@ -24,7 +24,7 @@ function Header(){
              <a href="https://www.google.com"><button className='joinus'>Join Us</button></a>
          
            </div>
-           <div>
+           <div className='home-second-black'>
                 <div className='home-second'>
                 </div>
                 <div>
