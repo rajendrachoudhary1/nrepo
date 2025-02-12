@@ -302,7 +302,7 @@
 }
 .thirdpart{
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 90px;
   display: flex;
   background-color: aliceblue;
 
@@ -406,19 +406,23 @@
   
 }
 .articles-div p{
+  margin: 0;
   font-size: 26px;
   color: #656565;
 }
 .news{
-   padding: 10px;
+   padding: 18px;
 }
 .news h2{
-  color: #585757;
+  font-size: 36px;
+  color: #656565;
+  font-family: Arial, Helvetica, sans-serif;
+   
 }
 .article-p{
-  font-size: 25px;
+  font-size: 20px;
   color:   #A1A1A1;
-  ;
+  
 }
 .footer{
   background: #70B6F0;
@@ -795,8 +799,11 @@
   .articles-div p{
     font-size: 16px; 
   }
+  .news h2{
+    font-size: 20px;
+  }
   .article-p{
-    font-size: 16px;
+    font-size: 13px;
   }
   .text-parts h1{
     font-size: 40px;
@@ -905,5 +912,6 @@
   .services1 ul li{
     font-size: 12px;  
   }
-
 }
+
+ 

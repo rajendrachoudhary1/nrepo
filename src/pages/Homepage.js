@@ -8,8 +8,11 @@ import Abovefooter from '../component/homepagecomponent/Abovefooter';
 import Services from '../component/homepagecomponent/Services';
 import Footer from '../component/homepagecomponent/Footer';
 import Header from '../component/homepagecomponent/Header';
+ 
 
 function Homepage(){
+    window.scrollTo({ top: 0, behavior: "smooth" });
+
     return(
         <>
         <Header/>

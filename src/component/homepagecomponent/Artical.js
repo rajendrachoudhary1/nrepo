@@ -24,9 +24,7 @@ function Artical(){
 
                       <div className='underline'></div>
                       <h2>Intelligent Responses</h2>
-                      <p className='article-p'>loren the system will perform various 
-                      mathematical operations such as finding roots, integration, 
-                      and differentiation.</p>
+                      <p className='article-p'>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                     </div>
 
                 </div>
@@ -40,9 +38,7 @@ function Artical(){
 
                     <p className='underline'></p>
                     <h2>Intelligent Responses</h2>
-                    <p className='article-p'>loren the system will perform various 
-                      mathematical operations such as finding roots, integration, 
-                      and differentiation.</p>
+                    <p className='article-p'>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                     </div>
 
                 </div>
@@ -56,9 +52,7 @@ function Artical(){
 
                     <p className='underline'></p>
                     <h2>Intelligent Responses</h2>
-                    <p className='article-p'>loren the system will perform various 
-                      mathematical operations such as finding roots, integration, 
-                      and differentiation.</p>
+                    <p className='article-p'>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                     </div>
 
                 </div>

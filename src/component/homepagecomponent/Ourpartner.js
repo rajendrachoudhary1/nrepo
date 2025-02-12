@@ -22,7 +22,7 @@ function ourpartner(){
                 <div className='part'>
 
                 <img src={img2}></img>
-               <h3>BRAND NAME</h3>
+               <h4>BRAND NAME</h4>
                 </div>
                <div className='underline'></div>
             </div>
@@ -30,7 +30,7 @@ function ourpartner(){
                 <div className='part'>
 
                 <img src={img3}></img>
-               <h3>BRAND NAME</h3>
+               <h4>BRAND NAME</h4>
                 </div>
                <div className='underline'></div>
             </div>
@@ -38,7 +38,7 @@ function ourpartner(){
                 <div className='part'>
 
                 <img src={img4}></img>
-                <h3>BRAND NAME</h3>
+                <h4>BRAND NAME</h4>
                 </div>
                <div className='underline'></div>
             </div>

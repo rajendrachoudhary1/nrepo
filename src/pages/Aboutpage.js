@@ -9,6 +9,8 @@ import Teamcard from '../component/aboutpagecomponent/Teamcard';
 import Team from '../component/aboutpagecomponent/Team';
 
 function Aboutpage(){
+    window.scrollTo({ top: 0, behavior: "smooth" });
+
     return(
         <>
         <Headerabout/>
