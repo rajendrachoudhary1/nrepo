@@ -46,7 +46,7 @@ function Aboutus(){
            ready for mathematical operations like finding solutions, 
             differentiating it, integrating it.</p>
 
-            <a className='p3'>About us</a>
+            <a className='p3'>ABOUT US</a>
           </div>
 
           
