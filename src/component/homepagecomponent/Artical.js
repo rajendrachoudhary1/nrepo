@@ -58,7 +58,7 @@ function Artical(){
                 </div>
                  
             </div>
-             
+             <a className='p3 more'>MORE</a>
         </section>
         </>
     )

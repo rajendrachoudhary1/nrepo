@@ -181,6 +181,7 @@
    
   color:#70b6f0;
   text-decoration: underline;
+  cursor: pointer;
 }
  
 .services{
@@ -280,6 +281,7 @@
   font-size: 20px;
   color: #70B6F0;
   border: none;
+  cursor: pointer;
 }
 .btn2{
   border-radius: 20px;
@@ -288,6 +290,7 @@
   color: #ffffff;
   background: transparent;
   border: 1px solid white;
+  cursor: pointer;
   
 }
  
@@ -374,6 +377,7 @@
 }
 .fourthsection{
   margin-top: 140px;
+  margin-bottom: 120px;
 }
 .fourthsection h3{
   margin-left: 20px;
@@ -383,7 +387,7 @@
   justify-content: space-around;
   align-items: center;
   height: auto;
-  margin-bottom: 120px;
+  /* margin-bottom: 120px; */
 }
 .artical{
   width: 100%;
@@ -392,6 +396,10 @@
   margin: 30px;
   background-color: aliceblue;
  
+}
+.more{
+  position: absolute;
+  right: 34px;
 }
 .newimg{
   width: 100%;
@@ -436,11 +444,20 @@
 }
  .footericon{
   margin-top: 30%;
+  display: flex;
+  gap: 20px;
  }
-.footericon img{
+.footer-icon-circle{
   width: 50px;
   height: 50px;
-  margin: 10px;
+  border-radius: 50%;
+  border: 2px solid  #EECD20;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+.footer-icon-circle img{
+  width: 30px;
 }
 .footermain h4{
   font-size: 26px;

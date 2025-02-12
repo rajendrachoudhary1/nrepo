@@ -1,9 +1,9 @@
  
 import '../../App.css';
 import {Link } from 'react-router-dom';
-import img from '../../Img/Frame 177.png'
-import img1 from '../../Img/Frame 178.png'
-import img2 from '../../Img/Frame 165.png'
+import img from '../../Img/TwitterX.png'
+import img1 from '../../Img/Instagram.png'
+import img2 from '../../Img/LinkedIn.png'
 import React from 'react';
 
  
@@ -16,9 +16,10 @@ function Footer(){
                <div className='footerlogo'>
                   <p>LOGO</p>
                   <div className='footericon'>
-                  <img src={img}></img>
-                  <img src={img1}></img>
-                  <img src={img2}></img>
+                     <div className='footer-icon-circle'><img src={img}></img></div>
+                     <div className='footer-icon-circle'><img src={img1}></img></div>
+                     <div className='footer-icon-circle'><img src={img2}></img></div>
+                  
                   </div>
                   
                </div>
